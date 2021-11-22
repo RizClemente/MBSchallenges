@@ -8,7 +8,7 @@ A 3 tier environment is a common setup. Use a tool of your choosing/familiarity 
 1. Problem Statement -
 A three-tier architecture is a software architecture pattern where the application is broken down into three logical tiers: the presentation layer, the business logic layer and the data storage layer. This architecture is used in a client-server application such as a web application that has the frontend, the backend and the database. Each of these layers or tiers does a specific task and can be managed independently of each other. 
 
-2. We shall be making use of the following AWS services to design and build a three-tier cloud infrastructure: Elastic Compute Cloud (EC2), Auto Scaling Group, Virtual Private Cloud(VPC), Elastic Load Balancer (ELB), Security Groups and the Internet Gateway. Our infrastructure will be designed to be highly available and fault tolerant. Below is the proposed architecture in the intrest of time, I have borrowed it from this link
+2. We shall be making use of the following AWS services to design and build a three-tier cloud infrastructure: Elastic Compute Cloud (EC2), Auto Scaling Group, Virtual Private Cloud(VPC), Elastic Load Balancer (ELB), Security Groups and the Internet Gateway. Our infrastructure will be designed to be highly available and fault tolerant. Below is the proposed architecture in the intrest of time, I have borrowed it from this link https://medium.com/the-andela-way/designing-a-three-tier-architecture-in-aws-e5c24671f124
 
 ![image](https://user-images.githubusercontent.com/94715481/142690837-24e03e0d-9fe5-42c2-bfad-d4f13cda8605.jpeg)
 
