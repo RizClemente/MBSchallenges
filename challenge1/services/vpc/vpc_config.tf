@@ -13,7 +13,7 @@ output "output_vpc_id" {
 
 resource "aws_subnet" "publicsubnet1" {
     
-    vpc_id            = aws_vpc.vpcdarwin.id
+    vpc_id            = aws_vpc.vpcrizza.id
     cidr_block        = var.public_subnet_1
     availability_zone = var.availability_zone_A
 
